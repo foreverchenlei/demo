@@ -11,8 +11,6 @@ public class TestController {
 
     @GetMapping("/test")
     public void test(){
-        System.out.println("this is a test!!!😀");
-        String dd="";
-
+        System.out.println("cl-this is a test!!!😀");
     }
 }
