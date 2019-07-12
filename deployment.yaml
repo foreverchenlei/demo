@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: java-demo
-        image: registry.cn-hangzhou.aliyuncs.com/bwtc/demo-test:${IMAGE_TAG}
+        image: registry.cn-hangzhou.aliyuncs.com/bwtc/demo-test:${TAG}
         imagePullPolicy: Always
         ports:
         - containerPort: 9000
