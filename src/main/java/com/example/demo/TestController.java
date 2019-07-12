@@ -12,5 +12,6 @@ public class TestController {
     @GetMapping("/test")
     public void test(){
         System.out.println("====================bwtc-this is a test!!!😀😀😀😀😀😀😀😀😀😀");
+        System.out.println("====================SUCCESS");
     }
 }
